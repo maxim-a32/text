@@ -2,14 +2,11 @@ from PyQt5.QtWidgets import *
 import sys
 import requests
 import sav
-#import logging
-#logger = loging.getLogger(__name__)
 class http(QMainWindow):
     def __init__(self):
         super().__init__()
         self.scren()
     def scren(self):
-        #self.url = 'https://raw.githubusercontent.com/maxim-a32/text/refs/heads/main/text.txt'
         self.screen_size = QApplication.primaryScreen().size()
         self.screen_width = self.screen_size.width()
         self.screen_height = self.screen_size.height()
