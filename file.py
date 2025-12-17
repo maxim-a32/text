@@ -2,6 +2,8 @@ from PyQt5.QtWidgets import *
 import sys
 import requests
 import sav
+#import logging
+#logger = loging.getLogger(__name__)
 class http(QMainWindow):
     def __init__(self):
         super().__init__()
